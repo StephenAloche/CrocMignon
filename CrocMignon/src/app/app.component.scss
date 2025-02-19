@@ -1,0 +1,44 @@
+:host {
+    --primary-color: #ff6f61;
+    --secondary-color: #ffb6b9;
+    --background-color: #fff;
+    --text-color: #333;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--background-color);
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: var(--background-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h1 {
+    color: var(--primary-color);
+  }
+
+  p {
+    color: var(--text-color);
+  }
