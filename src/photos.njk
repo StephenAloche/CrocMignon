@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Photos
+---
+
+<p>This is the Photos page.</p>
+
+<h2>Image Gallery</h2>
+
+<label>
+  <input type="checkbox" id="toggleImages" checked>
+  Show Images
+</label>
+
+<div id="imageGallery">
+  {% for image in images %}
+    <img src="/images/{{ image }}" alt="Image">
+  {% endfor %}
+</div>
+
+<script>
+  document.getElementById("toggleImages").addEventListener("change", function() {
+    document.getElementById("imageGallery").style.display = this.checked ? "block" : "none";
+  });
+</script>

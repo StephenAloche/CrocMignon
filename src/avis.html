@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: Avis
+---
+<h1>Avis</h1>
+
+<div class="avis">
+    <h3>Les avis de nos clients</h3>
+    <p>Voici les avis de nos clients</p>
+    <ul>
+        {% for avi in avis %}
+  <li>{{ avi.nom }} - {{ avi.commentaire }} - {{ avi.star }}</li>
+{% endfor %}
+    </ul>
+</div>
