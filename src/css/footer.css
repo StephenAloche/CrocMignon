@@ -1,0 +1,26 @@
+
+
+.footer-container{
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span,a{
+
+    font-size: 0.75rem;
+    }
+}
+
+.title{
+    font-weight: 700;
+}
+
+.reseaux{
+    display: flex;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+}
