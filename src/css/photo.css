@@ -1,0 +1,11 @@
+.placeholder{
+    display:contents
+}
+
+.sc-gallery {
+    display: grid;
+
+    img{
+        max-width : 100px;
+    }
+}

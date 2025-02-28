@@ -1,7 +1,17 @@
-<nav>
-    <ul>
-        <li><a href="{{ '/' | url }}">Home</a></li>
-        <li><a href="{{ '/about' | url }}">About</a></li>
-        <li><a href="{{ '/blog' | url }}">Blog</a></li>
-    </ul>
-</nav>
+
+<link rel="stylesheet"  href="/css/nav.css"/>
+
+<div class="topnav" id="myTopnav">
+    <a href="{{ '/' | url }}">Présentation</a>
+    <a href="{{ '/photos' | url }}">Photos</a>
+    <a href="{{ '/prestations' | url }}">Préstations</a>
+    <a href="{{ '/boutique' | url }}">Boutique</a>
+    <a href="{{ '/avis' | url }}">Livre d'or</a>
+    <a href="{{ '/infos' | url }}">Infos pratiques</a>
+    <a href="{{ '/reseaux' | url }}">Reseaux</a>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="responsiveNavBar()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
