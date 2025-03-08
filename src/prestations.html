@@ -1,0 +1,111 @@
+---
+layout: base.njk
+title: Prestations
+---
+<link rel="stylesheet"  href="/css/prestations.css"/>
+
+<h1>Préstations et Tarifs</h1>
+<script>
+</script>
+<!-- <div class="custom-select">
+    <input list="options" id="dogInput">
+    <datalist id="options" class="dropdown">        
+  {% for chien in chiens %}
+    <option class="option button-style" data-category="dog" data-taille="{{ chien.taille }}" >{{ chien.race }}</option>
+    {% endfor %}
+    </div>
+</div> -->
+
+<div class="custom-select">
+    <input type="text" id="dogInput" placeholder="Select a dog breed">
+    <div id="customDropdown" class="dropdown hidden">
+        {% for chien in chiens %}
+            <div class="dropdown-item" data-taille="{{ chien.taille }}">{{ chien.race }}</div>
+        {% endfor %}
+    </div>
+</div>
+
+
+<p id="taille">test</p>
+<!-- 
+<p>Bain</p> à partir de 25€	
+<div><p>Entretien</p><span>(griffes, oreilles, démêlage)</span></div>
+<p>Coupe ciseaux</p> à partir de 35€	
+<p>Épilation</p> <p id="taille">test</p> à partir de 44€	
+<p>Tonte</p> à partir de 30€	 -->
+
+
+<p>Chat</p>
+<script type="text/javascript"  src="/js/prestations.js"></script>
+
+
+<script>
+    const input = document.getElementById("dogInput");
+    const dropdown = document.getElementById("customDropdown");
+    const tailleElement = document.getElementById("taille");
+    
+    // Show dropdown when clicking on input
+    input.addEventListener("focus", () => {
+        dropdown.classList.remove("hidden");
+    });
+    
+    // Hide dropdown if clicking outside
+    document.addEventListener("click", (e) => {
+        if (!input.contains(e.target) && !dropdown.contains(e.target)) {
+            dropdown.classList.add("hidden");
+        }
+    });
+    
+    // Handle selection
+    dropdown.querySelectorAll(".dropdown-item").forEach(item => {
+        item.addEventListener("click", function() {
+            input.value = this.textContent;
+            tailleElement.textContent = "Taille: " + this.getAttribute("data-taille");
+            dropdown.classList.add("hidden");
+        });
+    });
+    </script>
+
+
+<style>
+    /* Custom Dropdown Styles */
+    .custom-select {
+        position: relative;
+        display: inline-block;
+        width: 200px;
+    }
+    
+    #dogInput {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .dropdown {
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        max-height: 150px;
+        overflow-y: auto;
+        z-index: 1000;
+    }
+    
+    .dropdown.hidden {
+        display: none;
+    }
+    
+    .dropdown-item {
+        padding: 10px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .dropdown-item:hover {
+        background: #f0f0f0;
+    }
+    </style>

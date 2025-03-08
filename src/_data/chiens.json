@@ -1,0 +1,570 @@
+[
+    {
+      "race": "Chihuahua",
+      "taille": "Petit"
+    },
+    {
+      "race": "Spitz nain (Pomeranian)",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bouledogue français",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Maltais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Shih Tzu",
+      "taille": "Petit"
+    },
+    {
+      "race": "Yorkshire Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Jack Russell Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Teckel",
+      "taille": "Petit"
+    },
+    {
+      "race": "Carlin",
+      "taille": "Petit"
+    },
+    {
+      "race": "Boston Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Lhassa Apso",
+      "taille": "Petit"
+    },
+    {
+      "race": "West Highland White Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schnauzer Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pinscher Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Frisé",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pékinois",
+      "taille": "Petit"
+    },
+    {
+      "race": "Épagneul Japonais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schipperke",
+      "taille": "Petit"
+    },
+    {
+      "race": "Petit Brabançon",
+      "taille": "Petit"
+    },
+    {
+      "race": "Chihuahua",
+      "taille": "Petit"
+    },
+    {
+      "race": "Spitz nain (Pomeranian)",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bouledogue français",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Maltais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Shih Tzu",
+      "taille": "Petit"
+    },
+    {
+      "race": "Yorkshire Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Jack Russell Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Teckel",
+      "taille": "Petit"
+    },
+    {
+      "race": "Carlin",
+      "taille": "Petit"
+    },
+    {
+      "race": "Boston Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Lhassa Apso",
+      "taille": "Petit"
+    },
+    {
+      "race": "West Highland White Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schnauzer Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pinscher Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Frisé",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pékinois",
+      "taille": "Petit"
+    },
+    {
+      "race": "Épagneul Japonais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schipperke",
+      "taille": "Petit"
+    },
+    {
+      "race": "Petit Brabançon",
+      "taille": "Petit"
+    },
+    {
+      "race": "Chihuahua",
+      "taille": "Petit"
+    },
+    {
+      "race": "Spitz nain (Pomeranian)",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bouledogue français",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Maltais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Shih Tzu",
+      "taille": "Petit"
+    },
+    {
+      "race": "Yorkshire Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Jack Russell Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Teckel",
+      "taille": "Petit"
+    },
+    {
+      "race": "Carlin",
+      "taille": "Petit"
+    },
+    {
+      "race": "Boston Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Lhassa Apso",
+      "taille": "Petit"
+    },
+    {
+      "race": "West Highland White Terrier",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schnauzer Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pinscher Nain",
+      "taille": "Petit"
+    },
+    {
+      "race": "Bichon Frisé",
+      "taille": "Petit"
+    },
+    {
+      "race": "Pékinois",
+      "taille": "Petit"
+    },
+    {
+      "race": "Épagneul Japonais",
+      "taille": "Petit"
+    },
+    {
+      "race": "Schipperke",
+      "taille": "Petit"
+    },
+    {
+      "race": "Petit Brabançon",
+      "taille": "Petit"
+    },
+    {
+      "race": "Caniche (Toy, Nain, Moyen)",
+      "taille": "Petit à Moyen"
+    },
+    {
+      "race": "Cavalier King Charles",
+      "taille": "Petit à Moyen"
+    },
+    {
+      "race": "Basenji",
+      "taille": "Petit à Moyen"
+    },
+    {
+      "race": "Épagneul Cocker",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Beagle",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Border Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Shar Pei",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Setter Irlandais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Springer Spaniel Anglais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Bearded Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Épagneul Breton",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Berger des Shetland",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Spitz Allemand",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Chien d'eau Portugais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Épagneul Cocker",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Beagle",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Border Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Shar Pei",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Setter Irlandais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Springer Spaniel Anglais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Bearded Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Épagneul Breton",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Berger des Shetland",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Spitz Allemand",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Chien d'eau Portugais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Épagneul Cocker",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Beagle",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Border Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Shar Pei",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Setter Irlandais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Springer Spaniel Anglais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Bearded Collie",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Épagneul Breton",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Berger des Shetland",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Spitz Allemand",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Chien d'eau Portugais",
+      "taille": "Moyen"
+    },
+    {
+      "race": "Berger Australien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Samoyède",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Chow Chow",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Dalmatien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger Picard",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger des Pyrénées",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger Australien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Samoyède",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Chow Chow",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Dalmatien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger Picard",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger des Pyrénées",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger Australien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Samoyède",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Chow Chow",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Dalmatien",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger Picard",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Berger des Pyrénées",
+      "taille": "Moyen à Grand"
+    },
+    {
+      "race": "Labrador Retriever",
+      "taille": "Grand"
+    },
+    {
+      "race": "Golden Retriever",
+      "taille": "Grand"
+    },
+    {
+      "race": "Husky Sibérien",
+      "taille": "Grand"
+    },
+    {
+      "race": "Berger Allemand",
+      "taille": "Grand"
+    },
+    {
+      "race": "Akita Inu",
+      "taille": "Grand"
+    },
+    {
+      "race": "Berger Belge Malinois",
+      "taille": "Grand"
+    },
+    {
+      "race": "Dobermann",
+      "taille": "Grand"
+    },
+    {
+      "race": "Rottweiler",
+      "taille": "Grand"
+    },
+    {
+      "race": "Lévrier Afghan",
+      "taille": "Grand"
+    },
+    {
+      "race": "Labrador Retriever",
+      "taille": "Grand"
+    },
+    {
+      "race": "Golden Retriever",
+      "taille": "Grand"
+    },
+    {
+      "race": "Husky Sibérien",
+      "taille": "Grand"
+    },
+    {
+      "race": "Berger Allemand",
+      "taille": "Grand"
+    },
+    {
+      "race": "Akita Inu",
+      "taille": "Grand"
+    },
+    {
+      "race": "Berger Belge Malinois",
+      "taille": "Grand"
+    },
+    {
+      "race": "Dobermann",
+      "taille": "Grand"
+    },
+    {
+      "race": "Rottweiler",
+      "taille": "Grand"
+    },
+    {
+      "race": "Lévrier Afghan",
+      "taille": "Grand"
+    },
+    {
+      "race": "Dogue Allemand",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Saint-Bernard",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Mastiff",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Terre-Neuve",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Bouvier Bernois",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Leonberg",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Irish Wolfhound",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Chien de Montagne des Pyrénées",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Komondor",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Kuvasz",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Lévrier Ecossais (Deerhound)",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Tosa Inu",
+      "taille": "Très Grand"
+    },
+    {
+      "race": "Berger d’Anatolie",
+      "taille": "Très Grand"
+    }
+  ]
