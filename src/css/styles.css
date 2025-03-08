@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 html, body {
     font-family: -apple-system, system-ui, sans-serif;
     line-height: 1.6;
@@ -7,6 +9,8 @@ html, body {
 
 body {
     max-width: 1440px;
+    background-color: var(--bg-color-light);
+    color: #d9d5cd;
 }
 
 main{
@@ -27,4 +31,15 @@ footer {
     margin-top: 2rem;
     padding-top: 1rem;
     border-top: 1px solid #ddd;
+}
+
+
+h1{
+    font-family: "Amaranth";
+    color: var(--color-primary);
+}
+
+h2{
+    font-family: "Amaranth";
+    color: var(--color-primary);
 }
