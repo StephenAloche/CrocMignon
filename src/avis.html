@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: Avis
+---
+
+<link rel="stylesheet"  href="/css/avis.css"/>
+
+<h1>Avis</h1>
+
+<div>
+    <h2>Les avis clients : <span class="asterisk">*</span></h2>
+    
+    <div class="avis">
+        {% for avi in avis %}
+        <div class="avis-bloc">
+            <div>
+                <span class="avis-bloc__nom">{{ avi.nom }}</span> - 
+                <span class="avis-bloc__star">{{ avi.star }}</span>
+            </div>
+            <span class="avis-bloc__commentaire">{{ avi.commentaire }}</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <span class="asterisk">*</span><span>Les avis sont récupéré de Google Maps périodiquement, il se peut que des commentaires récent ne soient pas présent.</span>
+</div>

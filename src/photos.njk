@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: Photos
+---
+<script type="text/javascript"  src="/js/photo.js"></script>
+<link rel="stylesheet"  href="/css/photo.css"/>
+
+<p>This is the Photos page.</p>
+
+<h2>Image Gallery</h2>
+
+<label>
+  <input type="checkbox" id="cb_chat" checked>
+  Chat
+</label>
+<label>
+  <input type="checkbox" id="cb_chien" checked>
+  Chien
+</label>
+<label>
+  <input type="checkbox" id="cb_avantapres" checked>
+  Avant-Apres
+</label>
+
+<div class="sc-gallery">
+<div id="galleryChat" class="placeholder">
+  test div chat
+  {% set chatImages = images | textIncludes("chat") %}
+  {% for image in chatImages %}
+    <img src="/images/{{ image }}" alt="Image">
+  {% endfor %}
+</div>
+
+<div id="galleryChien"  class="placeholder">
+  {% set chienImages = images | textIncludes("chien") %}
+  {% for image in chienImages %}
+    <img src="/images/{{ image }}" alt="Image">
+  {% endfor %}
+</div>
+
+<div id="galleryAvantApres"  class="placeholder">
+  {% set avap = images | textIncludes("avant-apres") %}
+  {% for image in avap %}
+    <img src="/images/{{ image }}" alt="Image">
+  {% endfor %}
+
+{% comparisonSlider "testBefore", "testAfter" %}
+</div>
+
+  </div>
