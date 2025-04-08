@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/CrocMignon/css/styles.css">
 
 <script type="text/javascript" src="/js/global.js"></script>
-    <title>Home</title>
+    <title>Photos</title>
 </head>
 <body>
     
@@ -31,16 +31,71 @@
 </div>
 
     <main>
-        
-<div class="content">
-    <h1>Bienvenue au salon de toilettage Croc'Mignon</h1>
-    <h2>Toilettage Canin et Félin, toutes les races et toutes les tailles</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl lorem, vehicula in viverra quis, pulvinar vitae magna. 
-        Duis blandit egestas purus non suscipit. Duis viverra quam ultrices turpis semper tincidunt. Praesent lobortis lobortis luctus.
-         In vulputate facilisis vehicula. Cras tempor augue in lacinia pretium. Donec sed sem at nisi eleifend dignissim. Donec dolor augue, 
-         tincidunt volutpat arcu vel, facilisis rutrum nisl. Phasellus rhoncus quam eget ante fermentum, et euismod magna tempor. Class aptent taciti 
-         sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In sollicitudin pellentesque dolor et congue.</p>
+        <script type="text/javascript"  src="/js/photo.js"></script>
+<link rel="stylesheet"  href="/css/photo.css"/>
+
+<p>This is the Photos page.</p>
+
+<h2>Image Gallery</h2>
+
+<label>
+  <input type="checkbox" id="cb_chat" checked>
+  Chat
+</label>
+<label>
+  <input type="checkbox" id="cb_chien" checked>
+  Chien
+</label>
+<label>
+  <input type="checkbox" id="cb_avantapres" checked>
+  Avant-Apres
+</label>
+
+<div class="sc-gallery">
+<div id="galleryChat" class="placeholder">
+  test div chat
+  
+  
 </div>
+
+<div id="galleryChien"  class="placeholder">
+  
+  
+    <img src="/images/chien/e188ea43-84e3-48ed-86c3-870e1c77eb78.jpeg" alt="Image">
+  
+</div>
+
+<div id="galleryAvantApres"  class="placeholder">
+  
+  
+    <img src="/images/avant-apres/0538be06-4411-4b3c-b1f2-f554877d9180.jpeg" alt="Image">
+  
+    <img src="/images/avant-apres/703a13ff-9fd6-441e-adf9-4ae61e405ff3.jpeg" alt="Image">
+  
+    <img src="/images/avant-apres/spitz_petit_1.jpeg" alt="Image">
+  
+    <img src="/images/avant-apres/spitz_petit_2.jpeg" alt="Image">
+  
+
+
+      <div class="comparison-container">
+        <div class="comparison-image before">
+        testBefore
+          <img src="testBefore" alt="Before">
+        </div>
+        <div class="comparison-image after">
+        testAfter
+          <img src="testAfter" alt="After">
+        </div>
+        <div class="slider-handle">
+          <div class="handle-line"></div>
+        </div>
+      </div>
+    
+</div>
+
+  </div>
+
     </main>
     
 <link rel="stylesheet"  href="/css/icons.css"/>

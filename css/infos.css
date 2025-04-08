@@ -1,0 +1,13 @@
+.horaires{
+    width: 25%;
+    p{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+.highlight{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
