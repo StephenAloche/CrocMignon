@@ -1,0 +1,30 @@
+.boutique{
+display: flex;
+flex-direction: column;
+gap: 4rem;
+
+}
+
+.line{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.line:nth-child(odd) {
+    flex-direction: row;
+  background-color: #d8f82370;
+
+}
+
+.line:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  background-color: #bb101070;
+}
+
+img{
+    padding:1rem;
+    max-height: 512px;
+}
