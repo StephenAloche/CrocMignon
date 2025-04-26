@@ -4,10 +4,12 @@ title: Photos
 ---
 <script type="text/javascript"  src="/js/photo.js"></script>
 <link rel="stylesheet"  href="/css/photo.css"/>
+<script>
+initComparisons();
+</script>
 
-<p>This is the Photos page.</p>
 
-<h2>Image Gallery</h2>
+<h1>Gallerie photos</h1>
 
 <label>
   <input type="checkbox" id="cb_chat" checked>
@@ -42,9 +44,15 @@ title: Photos
   {% set avap = images | textIncludes("avant-apres") %}
   {% for image in avap %}
     <img src="/images/{{ image }}" alt="Image">
-  {% endfor %}
 
-{% comparisonSlider "testBefore", "testAfter" %}
+    {% if loop.index is odd and loop.index < avap | length %}
+      {% set beforeImage = image %}
+      {% set afterImage = avap[loop.index] %}
+      {% comparisonSlider "/images/"+beforeImage, "/images/"+afterImage %}
+    {% endif %}
+  {% endfor %} 
+
+{% comparisonSlider "/images/avant-apres/spitz_petit_1.jpeg", "/images/avant-apres/spitz_petit_2.jpeg" %}
 </div>
 
   </div>

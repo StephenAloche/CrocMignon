@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-
+console.log("images.js is being executed!");
 module.exports = function() {
   const imageDir = "/images"; // Your image folder
   const imageFiles = [];
