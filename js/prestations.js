@@ -1,21 +1,43 @@
-document.getElementById("dogInput").addEventListener("input", function() {
-  const inputValue = this.value;
-  const options = document.querySelectorAll("#options option");
-  const tailleElement = document.getElementById("taille"); // Get the paragraph
 
-  options.forEach(option => {
-      if (option.value === inputValue) {
-          console.log("Selected option:", option.value);
-          console.log("Taille:", option.getAttribute("data-taille"));
-          // Update the <p> content with the selected dog's taille
-          tailleElement.textContent = "Taille: " + option.getAttribute("data-taille");
-      }
+
+async function loadTarifs() {
+  const response = await fetch('/data_static/tarifs.json');
+  const tarifs = await response.json();
+
+  const tbody = document.querySelector('#userTable tbody');
+  const filterInput = document.getElementById('filter');
+
+  const noResultsMsg = document.getElementById('no-results');
+
+  function renderTable(data) {
+    tbody.innerHTML = '';
+
+    if (data.length === 0) {
+      noResultsMsg.style.display = 'block';
+      return;
+    }
+
+    noResultsMsg.style.display = 'none';
+
+    tbody.innerHTML = data.map(dog => `
+      <tr>
+        <td>${dog.race}</td>
+        <td>${dog.bain??""}</td>
+        <td>${dog.coupe??""}</td>
+        <td>${dog.tondeuse??""}</td>
+        <td>${dog.epilation??""}</td>
+        <td>${dog.tontetotal??""}</td>
+      </tr>
+    `).join('');
+  }
+
+  filterInput.addEventListener('input', () => {
+    const filter = filterInput.value.toLowerCase();
+    const filtered = tarifs.filter(u => u.race.toLowerCase().includes(filter));
+    renderTable(filtered);
   });
-});
 
-// Clear the input when clicking but allow typing
-document.getElementById("dogInput").addEventListener("click", function() {
-  setTimeout(() => {
-      this.value = ""; // Clear the input after click
-  }, 0); // Ensures focus is not lost
-});
+  renderTable(tarifs);
+}
+
+loadTarifs();

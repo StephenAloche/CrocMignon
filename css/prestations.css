@@ -15,3 +15,22 @@
 .button-style:hover {
     background-color: #0056b3;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid var(--color-primary);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--color-secondary);
+  }
+
+  .no-results{
+    display: none;;
+  }

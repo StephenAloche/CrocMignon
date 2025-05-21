@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="/CrocMignon/css/styles.css">
 
 <script type="text/javascript" src="/js/global.js"></script>
@@ -16,13 +17,18 @@
 <link rel="stylesheet"  href="/css/nav.css"/>
 
 <div class="topnav" id="myTopnav">
+  <div class="nav-button">
     <a href="/CrocMignon/">Présentation</a>
     <a href="/CrocMignon/photos">Photos</a>
     <a href="/CrocMignon/prestations">Préstations</a>
+  </div>
+    <img src="/images/svg/dog-paw.svg" alt="logo" class="logo">
+    <div class="nav-button">
     <a href="/CrocMignon/boutique">Boutique</a>
     <a href="/CrocMignon/avis">Livre d'or</a>
     <a href="/CrocMignon/infos">Infos pratiques</a>
     <a href="/CrocMignon/reseaux">Reseaux</a>
+    </div>
 
 
   <a href="javascript:void(0);" class="icon" onclick="responsiveNavBar()">
@@ -40,37 +46,59 @@ initComparisons();
 
 <h1>Gallerie photos</h1>
 
-<label>
-  <input type="checkbox" id="cb_chat" checked>
-  Chat
-</label>
-<label>
-  <input type="checkbox" id="cb_chien" checked>
-  Chien
-</label>
-<label>
-  <input type="checkbox" id="cb_avantapres" checked>
-  Avant-Apres
-</label>
+<div class="flex toggle">
+  <div class="flex-col">
+      Chat
+    <label class="switch">
+      <input type="checkbox"  id="cb_chat" checked/>
+      <span class="slider cat"></span>
+    </label>
+</div>
+
+  <div class="flex-col">
+    Chien
+    <label class="switch">
+      <input type="checkbox"  id="cb_chien" checked/>
+      <span class="slider dog"></span>
+    </label>
+</div>
+
+  <div class="flex-col">
+      Avant-Apres
+    <label class="switch">
+      <input type="checkbox" id="cb_avantapres" checked/>
+      <span class="slider both"></span>
+    </label>
+  </div>
+</div>
+
 
 <div class="sc-gallery">
 <div id="galleryChat" class="placeholder">
-  test div chat
   
+  
+    <img src="/images/chat/What-Does-Cat-Grooming-Include-1024x683.jpg" alt="Image">
+  
+    <img src="/images/chat/download.jpg" alt="Image">
   
 </div>
 
 <div id="galleryChien"  class="placeholder">
   
   
-    <img src="/images/chien/e188ea43-84e3-48ed-86c3-870e1c77eb78.jpeg" alt="Image">
+    <img src="/images/chien/corgi copy 2.jpeg" alt="Image">
+  
+    <img src="/images/chien/dog2.jpg" alt="Image">
+  
+    <img src="/images/chien/dog3.jpg" alt="Image">
+  
+    <img src="/images/chien/kk.jpg" alt="Image">
   
 </div>
 
 <div id="galleryAvantApres"  class="placeholder">
   
   
-    <img src="/images/avant-apres/0538be06-4411-4b3c-b1f2-f554877d9180.jpeg" alt="Image">
 
     
       
@@ -78,20 +106,18 @@ initComparisons();
       
   <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="/images/avant-apres/0538be06-4411-4b3c-b1f2-f554877d9180.jpeg">
+    <img src="/images/avant-apres/1.jpeg">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="/images/avant-apres/703a13ff-9fd6-441e-adf9-4ae61e405ff3.jpeg">
+    <img src="/images/avant-apres/2.jpeg">
   </div>
 </div>
       
     
   
-    <img src="/images/avant-apres/703a13ff-9fd6-441e-adf9-4ae61e405ff3.jpeg" alt="Image">
 
     
   
-    <img src="/images/avant-apres/spitz_petit_1.jpeg" alt="Image">
 
     
       
@@ -99,30 +125,19 @@ initComparisons();
       
   <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="/images/avant-apres/spitz_petit_1.jpeg">
+    <img src="/images/avant-apres/3.jpeg">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="/images/avant-apres/spitz_petit_2.jpeg">
+    <img src="/images/avant-apres/4.jpeg">
   </div>
 </div>
       
     
   
-    <img src="/images/avant-apres/spitz_petit_2.jpeg" alt="Image">
 
     
    
 
-
-  <div class="img-comp-container">
-  <div class="img-comp-img">
-    <img src="/images/avant-apres/spitz_petit_1.jpeg">
-  </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="/images/avant-apres/spitz_petit_2.jpeg">
-  </div>
-</div>
-      
 </div>
 
   </div>

@@ -1,0 +1,234 @@
+[
+	{
+		"race": "Chihuahua poil long",
+		"bain": "25",
+		"coupe": "35",
+		"tonte-totale ": "30"
+	},
+	{
+		"race": "Schnauzer nain",
+		"bain": "30",
+		"tondeuse": "45",
+		"epilation": "50",
+		"tonte-totale ": "36"
+	},
+	{
+		"race": "Yorkshire",
+		"bain": "25",
+		"coupe": "40",
+		"tonte-totale ": "36"
+	},
+	{
+		"race": "Caniche nain",
+		"bain": "30",
+		"coupe": "44",
+		"tondeuse": "42",
+		"tonte-totale ": "38"
+	},
+	{
+		"race": "Westie",
+		"bain": "37",
+		"tondeuse": "48",
+		"epilation": "50",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Basset griffon vendeen",
+		"bain": "35",
+		"tondeuse": "45",
+		"epilation": "55",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Cocker spaniel",
+		"bain": "37",
+		"tondeuse": "48",
+		"epilation": "55",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Schnauzer moyen",
+		"bain": "37",
+		"tondeuse": "48",
+		"epilation": "55",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Cocker americain",
+		"bain": "38",
+		"tondeuse": "50",
+		"epilation": "70",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Cavalier king charle",
+		"bain": "40",
+		"tondeuse": "44",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Lhassa apso",
+		"bain": "40-45",
+		"coupe": "48",
+		"tondeuse": "45",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Caniche moyen",
+		"bain": "37",
+		"coupe": "48",
+		"tondeuse": "46",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Shih-tzu",
+		"bain": "40-45",
+		"coupe": "48",
+		"tondeuse": "46",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Bichon maltais",
+		"bain": "37",
+		"coupe": "44",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Bichon frise",
+		"bain": "40",
+		"coupe": "48",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Bichon havanais",
+		"bain": "40",
+		"coupe": "48",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Coton de tulear",
+		"bain": "40-45",
+		"coupe": "48",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Labrit",
+		"bain": "40-45",
+		"coupe": "50-55",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Chat",
+		"bain": "38",
+		"tonte-totale ": "40"
+	},
+	{
+		"race": "Schnauzer geant",
+		"bain": "50",
+		"tondeuse": "70",
+		"epilation": "90",
+		"tonte-totale ": "60"
+	},
+	{
+		"race": "Caniche geant",
+		"bain": "70",
+		"coupe": "130",
+		"tondeuse": "100",
+		"tonte-totale ": "90"
+	},
+	{
+		"race": "Bobtail",
+		"bain": "125",
+		"tonte-totale ": "95"
+	},
+	{
+		"race": "Teckel poil dur",
+		"bain": "30",
+		"epilation": "44"
+	},
+	{
+		"race": "Cairn terrier",
+		"bain": "30",
+		"tondeuse": "45",
+		"epilation": "50"
+	},
+	{
+		"race": "Spitz nian",
+		"bain": "35",
+		"coupe": "42"
+	},
+	{
+		"race": "Spitz moyen",
+		"bain": "40",
+		"coupe": "48"
+	},
+	{
+		"race": "Bearded collie",
+		"bain": "50",
+		"coupe": "60"
+	},
+	{
+		"race": "Bouledogue fr / ang",
+		"bain": "30"
+	},
+	{
+		"race": "Border collie, labrador ect",
+		"bain": "40"
+	},
+	{
+		"race": "Type epagneul, setter ...",
+		"bain": "40"
+	},
+	{
+		"race": "Golden retriever",
+		"bain": "55"
+	},
+	{
+		"race": "Husky",
+		"bain": "55"
+	},
+	{
+		"race": "Eurasier",
+		"bain": "60"
+	},
+	{
+		"race": "Chow-chow",
+		"bain": "65"
+	},
+	{
+		"race": "Samoyede",
+		"bain": "70"
+	},
+	{
+		"race": "Bouvier bernois",
+		"bain": "75"
+	},
+	{
+		"race": "Colley",
+		"bain": "75"
+	},
+	{
+		"race": "Terre neuve",
+		"bain": "130"
+	},
+	{
+		"race": "Leonberg",
+		"bain": "130"
+	},
+	{    
+		"race": "St bernard",
+		"bain": "130"
+	},
+	{
+		"race": "Berger allemand",
+		"bain": "40-60"
+	},
+	{
+		"race": "Berger australien",
+		"bain": "40-60"
+	},
+	{
+		"race": "Tervuren",
+		"bain": "45-55"
+	}
+]
