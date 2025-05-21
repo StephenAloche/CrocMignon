@@ -11,22 +11,35 @@ initComparisons();
 
 <h1>Gallerie photos</h1>
 
-<label>
-  <input type="checkbox" id="cb_chat" checked>
-  Chat
-</label>
-<label>
-  <input type="checkbox" id="cb_chien" checked>
-  Chien
-</label>
-<label>
-  <input type="checkbox" id="cb_avantapres" checked>
-  Avant-Apres
-</label>
+<div class="flex toggle">
+  <div class="flex-col">
+      Chat
+    <label class="switch">
+      <input type="checkbox"  id="cb_chat" checked/>
+      <span class="slider cat"></span>
+    </label>
+</div>
+
+  <div class="flex-col">
+    Chien
+    <label class="switch">
+      <input type="checkbox"  id="cb_chien" checked/>
+      <span class="slider dog"></span>
+    </label>
+</div>
+
+  <div class="flex-col">
+      Avant-Apres
+    <label class="switch">
+      <input type="checkbox" id="cb_avantapres" checked/>
+      <span class="slider both"></span>
+    </label>
+  </div>
+</div>
+
 
 <div class="sc-gallery">
 <div id="galleryChat" class="placeholder">
-  test div chat
   {% set chatImages = images | textIncludes("chat") %}
   {% for image in chatImages %}
     <img src="/images/{{ image }}" alt="Image">
@@ -43,7 +56,6 @@ initComparisons();
 <div id="galleryAvantApres"  class="placeholder">
   {% set avap = images | textIncludes("avant-apres") %}
   {% for image in avap %}
-    <img src="/images/{{ image }}" alt="Image">
 
     {% if loop.index is odd and loop.index < avap | length %}
       {% set beforeImage = image %}
@@ -52,7 +64,6 @@ initComparisons();
     {% endif %}
   {% endfor %} 
 
-{% comparisonSlider "/images/avant-apres/spitz_petit_1.jpeg", "/images/avant-apres/spitz_petit_2.jpeg" %}
 </div>
 
   </div>

@@ -1,16 +1,84 @@
+:root{
+  --max-width-photo: 430px;
+  --max-height-photo: 330px;
+}
+
 .placeholder{
     display:contents
 }
 
 .sc-gallery {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;;
 
-    img{
-        /* max-width : 100px; */
-  height: 200px;
+    #galleryChat img,
+    #galleryChien img,
+    .img-comp-container{
+    max-width: var(--max-width-photo);
+    max-height: var(--max-height-photo);
+    border: 10px solid var(--color-primary);
+    border-radius: 17px;
     }
 }
 
+.toggle{
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*toggle emoji*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Emoji inside the slider */
+.slider::before {
+  content: "⭕";
+  position: absolute;
+  left: 6px;
+  bottom: 3px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+/* When checked, change background and emoji */
+input:checked + .slider {
+  background-color: var(--color-primary);
+}
+
+input:checked + .slider.cat::before {
+  content: "😺";
+  transform: translateX(26px); /* Move to right */
+}
+input:checked + .slider.dog::before  {
+  content: "🐶";
+  transform: translateX(26px); /* Move to right */
+}
+input:checked + .slider.both::before  {
+  content: "✂";
+  transform: translateX(26px); /* Move to right */
+}
 
 /*comparison-slider*/
 
@@ -65,26 +133,20 @@
   transform: translate(-50%, -50%) rotateZ(90deg);
 }
 
-.img{
-  height: 200px;
-  max-width: 200px !important;
-}
-
 .img-comp-container {
   position: relative;
-  height: 200px; /*should be the same height as the images*/
+  height: var(--max-height-photo);
+  width: var(--max-width-photo);
+
+  img{
+    max-width: var(--max-width-photo);
+    max-height: var(--max-height-photo);
+  }
 }
 
 .img-comp-img {
   position: absolute;
-  width: auto;
-  height: auto;
   overflow:hidden;
-}
-
-.img-comp-img img {
-  display:block;
-  vertical-align:middle;
 }
 
 .img-comp-slider {
