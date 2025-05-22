@@ -6,10 +6,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/images");
     eleventyConfig.addPassthroughCopy("src/data_static");
 
-
-    let isGitHubPages = process.env.GITHUB_ACTIONS === "true"; // Detect GitHub deployment
-    let pathPrefix = isGitHubPages ? "/CrocMignon/" : "/";
-
     //FILTER
     eleventyConfig.addFilter('textIncludes', function(collection, textValue) {
       if (!textValue){
@@ -33,7 +29,11 @@ module.exports = function(eleventyConfig) {
   </div>
 </div>
       `;
-    });
+    });    
+
+    let isGitHubPages = process.env.GITHUB_ACTIONS === "true"; // Detect GitHub deployment
+    let pathPrefix = isGitHubPages ? "/CrocMignon/" : "/";
+
   // Check if a custom domain is set (GitHub Pages uses CNAME for this)
   if (process.env.CUSTOM_DOMAIN) {
     pathPrefix = "/"; // No subfolder needed with a custom domain

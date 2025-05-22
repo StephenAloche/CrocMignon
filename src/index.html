@@ -2,11 +2,11 @@
 layout: base.njk
 title: Home
 ---
-<link rel="stylesheet"  href="/css/index.css"/>
+<link rel="stylesheet"  href="{{ '/css/index.css' | url }}"/>
 
 <div class="content">
     <div class="flex">
-        <img src="images/photo/dog1.jpg" alt="Dog" class="img1"/>
+        <img src="{{ 'images/photo/dog1.jpg' | url }}" alt="Dog" class="img1"/>
         
         <div>
             <h1>Bienvenue au salon de toilettage Croc'Mignon</h1>
