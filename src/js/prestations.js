@@ -1,7 +1,7 @@
 
 
 async function loadTarifs() {
-  const response = await fetch('/data_static/tarifs.json');
+  const response = await fetch(" {{ '/data_static/tarifs.json' | url }}");
   const tarifs = await response.json();
 
   const tbody = document.querySelector('#userTable tbody');
