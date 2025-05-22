@@ -22,10 +22,10 @@ module.exports = function(eleventyConfig) {
       return `
   <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="${beforeImage}">
+    <img src="${this.url(beforeImage)}">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="${afterImage}">
+    <img src="${this.url(afterImage)}">
   </div>
 </div>
       `;
