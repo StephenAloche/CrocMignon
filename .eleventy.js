@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
   }
 
     return {
-      pathPrefix: pathPrefix,
+      pathPrefix: "/CrocMignon/",
       dir: {
         input: "src",
         output: "_site",
