@@ -22,10 +22,10 @@ module.exports = function(eleventyConfig) {
       return `
   <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="${this.url(beforeImage)}">
+    <img src="{{ '${beforeImage}' | url }}">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="${this.url(afterImage)}">
+    <img src="{{ '${afterImage}' | url }}">
   </div>
 </div>
       `;
@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
   }
 
     return {
-      pathPrefix: "/CrocMignon/",
+      pathPrefix: pathPrefix,
       dir: {
         input: "src",
         output: "_site",
